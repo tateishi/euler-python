@@ -1,2 +1,2 @@
-# python-euler
+# euler-python
 ## Project Euler in python
