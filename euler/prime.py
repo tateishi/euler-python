@@ -7,8 +7,7 @@ def maybe_prime():
 
     base = 0
     while True:
-        for n in WHEEL30:
-            yield n + base
+        yield from (n + base for n in WHEEL30)
         base += 30
 
 
